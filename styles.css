@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #838383;
-    background-image: url('bg.jpg'); /* Ganti dengan URL gambar */
+    background-image: url('bg.png'); /* Ganti dengan URL gambar */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,53 +57,53 @@ body {
 }
 
 .page img {
-    width: 58%;
-    height: auto;
-    object-fit: cover;
-    border: 1px solid #ccc;
-    position: cover;
-    top: 10%;
-    left: 10%;
+    lebar : 58 % ;
+    tinggi : otomatis ;
+    kesesuaian objek : sampul ;
+    batas : 1 px  solid #ccc;
+    posisi : penutup ;
+    atas : 10 % ;
+    kiri : 10 % ;
 }
 
-.author-name {
-    position: absolute;
-    bottom: 10px; 
-    right: 10px; 
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 14px;
-    color: #000;
+.nama-penulis {
+    posisi : absolut ;
+    bawah : 10 px ;
+    kanan : 10 px ;
+    warna latar belakang : rgba ( 255 , 255 , 255 , 0.7 ) ;
+    padding : 5px ;​
+    radius- batas : 5px ;
+    Ukuran font : 14 px ;
+    warna : #000;
 }
 
-.music-player {
-    text-align: center;
-    color: #007BFF; 
-    cursor: pointer; 
+.pemutar musik {
+    perataan teks : tengah ;
+    warna : #007BFF;
+    kursor : penunjuk ;
 }
 
-.music-player i {
-    font-size: 70px; 
-    margin-right: 10px; 
-    margin-top: 10px; 
+.pemutar musik i {
+    Ukuran font : 70 px ;
+    margin- kanan : 10px ;
+    margin- atas : 10px ;
 }
 
-#song-duration {
-    font-size: 16px;
-    color: #333; 
-    margin-top: 5px; 
+#durasi-lagu {
+    Ukuran font : 16 px ;
+    warna : #333;
+    margin -atas : 5px ;
 }
 
-#lyrics-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: #333;
-    font-size: 20px;
-    font: bold;
-    text-align: center;
-    padding: 20px;
+#wadah-lirik {
+    tampilan : fleksibel ;
+    flex-wrap : wrap ;
+    justify-content : center ;
+    sejajarkan item : tengah ;
+    tinggi : 100 % ;
+    warna : #333;
+    Ukuran font : 20 px ;
+    Font : tebal ;
+    perataan teks : tengah ;
+    padding : 20 px ;
 }
